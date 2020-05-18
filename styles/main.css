@@ -1,0 +1,37 @@
+body {
+  margin: none;
+  border: none;
+  padding: none;
+}
+
+#heading {
+  display: flex;
+  justify-content: center;
+}
+
+#masterContainer {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+#gridContainer {
+  margin-top: 20px;
+  padding: none;
+  display: grid;
+  border: 2px solid;
+  width: 40%;
+  height: 85%;
+  align-items: stretch;
+}
+
+.square {
+  padding: 0px;
+  margin: 0px;
+  height: auto;
+  width: auto;
+}
+
+.hovered {
+  border: none;
+}
