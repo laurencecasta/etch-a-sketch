@@ -38,7 +38,7 @@ clearBtn.addEventListener('click', () => {
   let newSquareCountX = prompt('Enter number of horizontal squares on the new grid: ');
   let newSquareCountTotal = newSquareCountX * newSquareCountY;
   
-  while (gridContainer.firstChild) {
+  while (gridContainer.firstChild) { // remove all original div squares to make room for new div squares
     gridContainer.removeChild(gridContainer.lastChild);
   }
 
