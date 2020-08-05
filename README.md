@@ -1,7 +1,3 @@
-# etch-a-sketch
-This repository is for my browser etch-a-sketch project.
+# Etch-a-Sketch
 
-# next steps
-- Add dropdown selector for random colors, select single color (with color wheel), black, and fade to black.
-- Add background image and title (with artistic font)
-- Refactor/lint all code (especially for redundancies)
+This project demonstrates the power of leveraging events in the browser. When a user hovers over a given square in the frame, the color is changed, which allows the user to draw much like an Etch-a-Sketch.
